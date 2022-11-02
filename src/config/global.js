@@ -1,17 +1,27 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Hallazgos, interpretación y presentación de la información',
+    descripcionCurso:
+      'Este componente, formula la procedencia y utilidad de los hallazgos en función de las necesidades estratégicas de la empresa. Resalta la importancia de la visión de procesos en la obtención, interpretación y presentación de hallazgos, como también la formalidad en la entrega de la información, a partir de informes estructurados y siguiendo los parámetros técnicos y normativos de cada organización.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
       },
     ],
   },
@@ -32,14 +42,21 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Obtención y ordenamiento de datos en un proceso de análisis',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Relación de los datos con los objetivos de análisis',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo:
+              'Procesamiento tecnológico de los datos con base en las necesidades de información',
+            hash: 't_1_2',
           },
         ],
       },
@@ -48,14 +65,14 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La interpretación de los hallazgos - Procesos y conclusiones',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Presentación formal de la información',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +118,134 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema:
+        'Procesamiento tecnológico de datos con base en las necesidades de información',
+      referencia:
+        'Dongo, A. y Silva, X. (2020). <i>Análisis de la minería de datos aplicada en empresas del sector retail</i> (Tesis de Grado, Universidad Católica San Pablo). Repositorio UCSP. ',
+      tipo: 'PDF',
+      link:
+        'https://repositorio.ucsp.edu.pe/bitstream/20.500.12590/16199/1/DONGO_POZO_ALD_MIN.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema:
+        'Procesamiento tecnológico de datos con base en las necesidades de información',
+      referencia:
+        'CCOO Industria. (2017). <i>La Digitalización y la Industria 4.0. Impacto industrial y laboral.</i>',
+      tipo: 'PDF',
+      link:
+        'https://industria.ccoo.es/4290fc51a3697f785ba14fce86528e10000060.pdf ',
+    },
+    {
+      tema:
+        'Procesamiento tecnológico de datos con base en las necesidades de información',
+      referencia:
+        'Canal Innova. (s.f.). <i>Los 7 mejores programas de software estadístico. Características, ventajas.</i>',
+      tipo: 'Página web',
+      link:
+        'https://canalinnova.com/los-7-mejores-programas-de-software-estadistico/ ',
+    },
+    {
+      tema: 'Presentación formal de la información',
+      referencia:
+        'Berrío, D., Higuita, S., Echeverri, M., López, E. & Valencia, S. (2020). Responsabilidad Social Empresarial y certificación en calidad: una breve relación documental. <i>Revista Contabilidad y Finanzas, 24</i>(1). p.1-10. ',
+      tipo: 'Artículo',
+      link:
+        'https://revistas.udea.edu.co/index.php/adversia/article/view/343084 ',
+    },
+    {
+      tema: 'Presentación formal de la información',
+      referencia:
+        'Normas Icontec. (2022). <i>Normas Icontec: Guía (2022).</i> ',
+      tipo: 'Página web',
+      link: 'https://normasicontec.co/ ',
+    },
+    {
+      tema: 'Presentación formal de la información',
+      referencia:
+        'Normas APA actualizadas (7ª edición). (2022). <i>Norma APA 2022.</i> ',
+      tipo: 'Página web',
+      link: 'https://normas-apa.org/etiqueta/normas-apa-2022/ ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Análisis de datos',
+      significado:
+        'se refiere al proceso de analizar conjuntos de datos para hallar tendencias y extraer conclusiones sobre la información que incluyen; se entregan los resultados, así como se dieron durante la investigación. ',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Conclusión',
+      significado:
+        'con los datos recaudados, las decisiones se toman sobre la base de los hallazgos; los hallazgos generan las conclusiones, y las conclusiones que estos datos originan, orientan a la toma de decisiones.',
+    },
+    {
+      termino: 'Dato',
+      significado:
+        'representación de una variable cualitativa o cuantitativa; puede provenir de la realidad y facilitar una evidencia o deducción científica.',
+    },
+    {
+      termino: 'Hallazgos',
+      significado:
+        'resultados parciales o totales de un proceso de recolección de datos. Los hallazgos son considerados información. ',
+    },
+    {
+      termino: 'Información',
+      significado:
+        'Información:	resultado del procesamiento de datos cuantitativos a través de métodos estadísticos o de datos cualitativos, mediante procesos de interpretación. La información se refiere a datos procesados. ',
+    },
+    {
+      termino: 'Informe',
+      significado:
+        'documento que contiene información reunida y previamente analizada, según ciertos criterios. El informe, por lo tanto, acopia información y eventos confirmados y estudiados, por quien lo elaboró.',
+    },
+    {
+      termino: 'Interpretación',
+      significado:
+        'es un proceso de pensamiento y razonamiento, que hoy día cuenta con el apoyo de software que llegan a emitir conclusiones, a partir de la integración de datos. ',
+    },
+    {
+      termino: 'Presentación de la información',
+      significado:
+        'proceso de preparación de documentación digital o física, material de apoyo o cualquier recurso, a través del cual se muestran los resultados de un proceso de análisis de datos y obtención de resultados. ',
+    },
+    {
+      termino: 'Recolección de datos',
+      significado:
+        'es el proceso por medio del cual, los observadores aprehenden la información que solicitan, con el objetivo de llevar a cabo un estudio. La recolección de datos es una fase necesaria, preliminar a la ejecución de un estudio estadístico.',
+    },
+    {
+      termino: 'Referencias',
+      significado:
+        'fuentes de la información que se han tomado como apoyo, desde la obtención de los datos, hasta el proceso de análisis y debate del resultado.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'CCOO Industria. (2017). <i>La Digitalización y la Industria 4.0. Impacto industrial y laboral.</i>',
+      link:
+        'https://industria.ccoo.es/4290fc51a3697f785ba14fce86528e10000060.pdf',
+    },
+    {
+      referencia:
+        'López, J. (2020). <i>La importancia y necesidad de las certificaciones en el proceso de innovación. Revista Forbes.</i>',
+      link:
+        'https://www.forbes.com.mx/la-importancia-y-necesidad-de-las-certificaciones-en-el-proceso-de-innovacion/ ',
+    },
+    {
+      referencia:
+        'Normas APA actualizadas (7ª edición). (2022). <i>Norma APA 2022.</i>',
+      link: 'https://normas-apa.org/etiqueta/normas-apa-2022/',
+    },
+    {
+      referencia: 'Normas Icontec. (2022). <i>Normas Icontec: Guía (2022).</i>',
+      link: 'https://normasicontec.co/ ',
+    },
+    {
+      referencia:
+        'Villarreal, J., Rosales, Y. & Rodrigo, A. (2018). La perspectiva hermenéutica y el sentido de la comunicación en el contexto de la sociocultura. <i>Anagramas - Rumbos y sentidos de la comunicación, 16(32). p.85-93.</i>',
+      link:
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1692-25222018000100085 ',
     },
   ],
   creditos: {
