@@ -39,7 +39,7 @@
 
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="79%" y="13%" numero="+")  
           .row.justify-content-center
-            p Se presenta al lector, la generalidad del contenido que encontrará en cuanto al ordenamiento de la estructura, objetivo del informativo, qué se persigue con el informe. Se relacionan los usuarios de la información y las contribuciones de la misma.	Introducción
+            p Se presenta al lector, la generalidad del contenido que encontrará en cuanto al ordenamiento de la estructura, objetivo del informativo, qué se persigue con el informe. Se relacionan los usuarios de la información y las contribuciones de la misma.
  
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="68%" y="58%" numero="+")  
           .row.justify-content-center

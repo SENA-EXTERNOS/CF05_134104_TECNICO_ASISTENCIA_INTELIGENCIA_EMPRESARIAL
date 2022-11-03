@@ -68,7 +68,7 @@
                             
           div(x="9%" y="70%" tooltip="Ver más" numero="+")
             .tarjeta.white-card.p-4
-              p.mb-3 El análisis es el #[span.text-bold proceso de razonamiento] de las causas, consecuencias, procedencias, tendencias, utilidades, veracidad, oportunidad, o cualquier otro aspecto que se quiera generar a partir de los datos, teniendo en cuenta el objetivo que dio origen a su recolección. Todo análisis es un proceso racional y, aunque existen procesadores de datos tecnológicos en el mercado, la empresa aún no puede prescindir del conocimiento humano para la interpretación de los procesos. 	ANÁLISIS
+              p.mb-3 El análisis es el #[span.text-bold proceso de razonamiento] de las causas, consecuencias, procedencias, tendencias, utilidades, veracidad, oportunidad, o cualquier otro aspecto que se quiera generar a partir de los datos, teniendo en cuenta el objetivo que dio origen a su recolección. Todo análisis es un proceso racional y, aunque existen procesadores de datos tecnológicos en el mercado, la empresa aún no puede prescindir del conocimiento humano para la interpretación de los procesos.
                                    
        
           div(x="1%" y="37%" tooltip="Ver más" numero="+")
@@ -239,7 +239,7 @@
       .tarjeta
         .row.justify-content-center
           .col-sm-6.mb-3
-            p.mt-5 En cuanto a la complejidad de los cálculos matemáticos para el procesamiento de los datos estadísticos, se genera la necesidad de apoyarse en herramientas tecnológicas, de las cuales Excel, es la herramienta base, como hoja de cálculo. Sin embargo, vemos que han surgido en el mercado diversos software estadísticos especializados, con licencia propia, los cuales pueden ser adquiridos por las empresas, para el manejo de los datos. 
+            p.mt-5.mb-5 En cuanto a la complejidad de los cálculos matemáticos para el procesamiento de los datos estadísticos, se genera la necesidad de apoyarse en herramientas tecnológicas, de las cuales Excel, es la herramienta base, como hoja de cálculo. Sin embargo, vemos que han surgido en el mercado diversos software estadísticos especializados, con licencia propia, los cuales pueden ser adquiridos por las empresas, para el manejo de los datos. 
             .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
               .row.justify-content-center.p-4                
                 p Asimismo, los sistemas de información empresarial, para la gerencia, las ventas, la producción o la logística, incorporan innumerables herramientas para el procesamiento de los datos y su conversión en información. 
