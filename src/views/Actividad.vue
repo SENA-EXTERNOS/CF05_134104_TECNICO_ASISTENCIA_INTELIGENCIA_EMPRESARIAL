@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Asistencia para la inteligencia empresarial
+          h2 Hallazgos, interpretación y presentación de la información
         p.mb-4 A continuación, se ubica una serie de preguntas que permiten evaluar el aprendizaje obtenido en cuanto al procesamiento de datos estadísticos. Se visualiza una serie de 10 preguntas de verdadero y falso, para seleccionar la opción que corresponda. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

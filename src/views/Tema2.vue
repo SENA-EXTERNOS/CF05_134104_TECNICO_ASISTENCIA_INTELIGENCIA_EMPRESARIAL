@@ -134,7 +134,7 @@
 
     .row.justify-content-center.bg4.mg-img.mt-5.mb-5.mg-img-final
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-acordeon-verde").mt-5
-        .row(titulo="Las conclusiones no son los hallazgos").p-5
+        .row(titulo="Las conclusiones no son los hallazgos").p-5.bg5
           .row.justify-content-center
             .col-md-7
               p El hallazgo es el elemento “resultado” del procesamiento del dato, o puede constituirse en un nuevo dato del proceso de análisis, que deberá integrarse al conjunto de datos. Los hallazgos, a través de un proceso de análisis, dan cabida a conclusiones. 
@@ -142,7 +142,7 @@
               figure
                 img(src="@/assets/curso/temas/tema2/img12.png", alt="alt")         
 
-        div(titulo="Las conclusiones responden a las preguntas").p-5
+        div(titulo="Las conclusiones responden a las preguntas").p-5.bg5
           .row.justify-content-center
             .col-md-7
               ul.lista-ul    
@@ -157,9 +157,9 @@
                   span  ¿Qué pasaría si cambian algunos de los datos de entrada al análisis, si cambia alguna situación interna o externa en el sistema empresarial o en algún proceso en particular?                 
             .col-md-5
               figure
-                img(src="@/assets/curso/temas/tema2/img12.png", alt="alt")  
+                img(src="@/assets/curso/temas/tema2/img13.png", alt="alt")  
 
-        div(titulo="Una conclusión no puede pertenecer a un elemento ajeno al objetivo del análisis").p-5
+        div(titulo="Una conclusión no puede pertenecer a un elemento ajeno al objetivo del análisis").p-5.bg5
           .row.justify-content-center
             .col-md-7
               p En caso tal que, durante el proceso de análisis se obtenga un hallazgo “extraño”, aleatorio o no contemplado, deberá integrarse a los datos con mucha pericia y experticia por parte del analista, quien fundamentará la aparición del dato y cómo este dato afecta de manera positiva o negativa, a la situación de análisis. Todo esto se muestra como conclusión.          
@@ -167,7 +167,7 @@
               figure
                 img(src="@/assets/curso/temas/tema2/img14.png", alt="alt") 
 
-        div(titulo="No existe un número limitado de conclusiones").p-5
+        div(titulo="No existe un número limitado de conclusiones").p-5.bg5
           .row.justify-content-center
             .col-md-7
               p Las conclusiones pueden ser tan amplias como combinación de hallazgos e intereses de análisis se hayan generado desde un inicio, pero no pueden ser tan específicas como una única conclusión, debido a que limitan el espectro de complejidad empresarial de la situación de análisis. No puede olvidarse que el pensamiento humano es rico en opciones y, precisamente, el trabajo del analista empresarial se basa en el manejo de la mayor cantidad, calidad y oportunidad de información para el desarrollo y crecimiento organizacional. 

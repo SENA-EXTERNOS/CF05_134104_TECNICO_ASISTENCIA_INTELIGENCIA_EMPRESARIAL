@@ -265,7 +265,7 @@
     p.mt-5.mb-5 En el transcurso del procesamiento tecnológico de los datos, encontramos dos temas importantes: 
 
     .tarjeta.color-borde-slider.color-slider.p-3.mt-5
-      SlyderA(tipo="b")
+      SlyderA(tipo="b").bg5
         .row
           .col-md-6.mb-4.mb-md-0.p-4
             h4 Herramientas tecnológicas para el procesamiento de datos y generación de información
