@@ -96,10 +96,10 @@
             .col-md-8
                 h5.mt-3.text-white Informe de gestión
                 p.text-small.text-white Para ampliar la información sobre la estructura y aspectos clave en la redacción de informes, lo invitamos a ver el video Informe de gestión.
-            .col-md-1.mt-4
-                a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download 
+            .col-md-2.mt-4
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=cQePqBGsnCo" target="_blank")
+                span Ver más 
+                i.fa.fa-link 
 
     .row.align-items-end.bg3.h4.p-3.mt-5 La normalización en la elaboración de informes
     p.mt-5.mb-5 El producto final del proceso de manejo de hallazgos es, en síntesis, la preparación de informes de acuerdo con las políticas organizacionales. Estos informes deben contener la información que permita la resolución de los asuntos que dieron cabida a la necesidad de recolección de los datos. 
@@ -134,10 +134,10 @@
                   .col-md-8
                       h5.mt-3.text-white.text-small Responsabilidad Social Empresarial y certificación en calidad: una breve relación documental
                       p.text-small.text-white Para ampliar la información, lo invitamos a leer el documento Responsabilidad Social Empresarial y certificación en calidad: una breve relación documental, el cual se encuentra en el material complementario.
-                  .col-md-1.mt-4
-                      a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download 
+                  .col-md-2.mt-4
+                    a.boton.color-acento-botones(href="https://revistas.udea.edu.co/index.php/adversia/article/view/343084" target="_blank")
+                      span Ver más 
+                      i.fa.fa-link
         .row
           .col-md-6.mb-4.mb-md-0.p-4                        
             p En Colombia, la norma técnica para la emisión de informes empresariales, conocidos como Informes Ejecutivos, es la Guía Técnica Colombiana GTC-185 estipulada por el Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC), ente certificador nacional para la elaboración de documentación organizacional. 
@@ -155,10 +155,10 @@
             .col-md-8
                 h5.mt-3.text-white Normas Icontec: Guía 2022.
                 p.text-small.text-white Como apoyo, el ICONTEC (2022), también ofrece un material didáctico para la comprensión y elaboración de estos informes, el cual puede visitar en el material complementario, con el nombre Normas Icontec: Guía 2022.
-            .col-md-1.mt-4
-                a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download
+            .col-md-2.mt-4
+              a.boton.color-acento-botones(href="https://normasicontec.co/" target="_blank")
+                span Ver más 
+                i.fa.fa-link
 
     .row.justify-content-center.bg4.mg-img.mt-5.mb-5.mg-img-final                   
       p.mt-5.mb-5  En el caso de los informes académicos, como apoyo para su aprendizaje, se recomienda la revisión de las Normas Internacionales APA, de la Asociación Americana de Psicología (American Psychological Association o APA en inglés). La importancia de esta norma es que es de uso internacional, y es la base de la mayoría de las normas de redacción de informes de las instituciones educativas. No obstante, la selección y uso de una norma específica para la redacción de un informe, debe poseer orientación organizacional.                                                                  
@@ -172,10 +172,10 @@
               .col-md-8
                   h5.mt-3.text-white Norma APA (2022)
                   p.text-small.text-white En el material complementario, se encuentra la última versión de la Norma APA (2022), como una base esencial y guía didáctica para el aprendiz.
-              .col-md-1.mt-4
-                  a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+              .col-md-2.mt-4
+                a.boton.color-acento-botones(href="https://normas-apa.org/etiqueta/normas-apa-2022/" target="_blank")
+                  span Ver más 
+                  i.fa.fa-link
       .row.justify-content-md-center.mt-5
         .col-md-11
           .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3

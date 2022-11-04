@@ -258,10 +258,10 @@
             .col-md-8
                 h5.mt-3.text-white Análisis de la minería de datos aplicada en empresas del sector retail
                 p.text-small.text-white Para ampliar la información, lo invitamos a leer el documento Análisis de la minería de datos aplicada en empresas del sector retail, el cual se encuentra en el material complementario.
-            .col-md-1.mt-4
-                a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download   
+            .col-md-2.mt-4
+                a.boton.color-acento-botones(href="https://repositorio.ucsp.edu.pe/bitstream/20.500.12590/16199/1/DONGO_POZO_ALD_MIN.pdf" target="_blank")
+                  span Ver más 
+                  i.fa.fa-link   
     p.mt-5.mb-5 En el transcurso del procesamiento tecnológico de los datos, encontramos dos temas importantes: 
 
     .tarjeta.color-borde-slider.color-slider.p-3.mt-5
@@ -274,15 +274,6 @@
           .col-md-6
             figure
               img(src="@/assets/curso/temas/tema1/img14.png", alt="alt")
-
-        .row
-          .col-md-6.mb-4.mb-md-0.p-4
-            h4 Visualización gráfica de los datos
-            p El manejo de los datos amerita un proceso de organización, y la estadística descriptiva ofrece las herramientas básicas conocidas como tablas y gráficos, los cuales, además de la organización, favorecen la visualización gráfica, permitiendo una mejor comprensión del comportamiento de los datos. Los procesadores tecnológicos de datos, permiten la elaboración de ambos recursos, y para la estadística, su combinación es fundamental. 
-            p En la empresa, es usual encontrar reportes de datos gráficos, debido a que las imágenes son un recurso esencial en la comunicación de la información empresarial, en cualquier área. Los gráficos de producción, las proyecciones de ventas, los resultados en rentabilidad, en su mayoría, son representados a través de visualizaciones estadísticas gráficas.            
-          .col-md-6
-            figure
-              img(src="@/assets/curso/temas/tema1/img15.png", alt="alt")
           .row.justify-content-md-center              
             .col-md-11                         
               .tarjeta.color-tarjeta-descargas.p-3.mt-5
@@ -292,10 +283,20 @@
                   .col-md-8
                       h5.mt-3.text-white La Digitalización y la Industria 4.0
                       p.text-small.text-white Para ampliar la información, lo invitamos a leer el documento La Digitalización y la Industria 4.0, el cual se encuentra en el material complementario.
-                  .col-md-1.mt-4
-                      a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
-                        span Descargar
-                        i.fas.fa-file-download 
+                  .col-md-2.mt-4
+                    a.boton.color-acento-botones(href="https://industria.ccoo.es/4290fc51a3697f785ba14fce86528e10000060.pdf" target="_blank")
+                      span Ver más 
+                      i.fa.fa-link                
+
+        .row
+          .col-md-6.mb-4.mb-md-0.p-4
+            h4 Visualización gráfica de los datos
+            p El manejo de los datos amerita un proceso de organización, y la estadística descriptiva ofrece las herramientas básicas conocidas como tablas y gráficos, los cuales, además de la organización, favorecen la visualización gráfica, permitiendo una mejor comprensión del comportamiento de los datos. Los procesadores tecnológicos de datos, permiten la elaboración de ambos recursos, y para la estadística, su combinación es fundamental. 
+            p En la empresa, es usual encontrar reportes de datos gráficos, debido a que las imágenes son un recurso esencial en la comunicación de la información empresarial, en cualquier área. Los gráficos de producción, las proyecciones de ventas, los resultados en rentabilidad, en su mayoría, son representados a través de visualizaciones estadísticas gráficas.            
+          .col-md-6
+            figure
+              img(src="@/assets/curso/temas/tema1/img15.png", alt="alt")
+
 
     .row.justify-content-center.mt-5
       .col-md-9
@@ -315,10 +316,10 @@
                 .col-md-8
                     h5.mt-3.text-white Los 7 mejores programas de #[i software] estadístico
                     p.text-small.text-white Lo invitamos a leer en el material complementario, el artículo #[span.text-bold Los 7 mejores programas de #[i software] estadístico,] donde puede encontrar una gama importante de #[i software] utilizados en las empresas, surgiendo cada vez mayores facilidades para su manejo y mejores opciones de visualización y generación de informes de gestión. 
-                .col-md-1.mt-4
-                    a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
-                      span Descargar
-                      i.fas.fa-file-download         
+                .col-md-2.mt-4
+                  a.boton.color-acento-botones(href="https://canalinnova.com/los-7-mejores-programas-de-software-estadistico/" target="_blank")
+                    span Ver más 
+                    i.fa.fa-link        
 
 
 
