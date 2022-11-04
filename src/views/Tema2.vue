@@ -7,7 +7,7 @@
         span 2
       h1 La interpretación de los hallazgos - Procesos y conclusiones
 
-    p.mt-5.mb-5  Es importante tener presente que los hallazgos en un procesamiento de datos, no se logran totalmente con la obtención de un dato procesado, un número “puro” o un resultado visible; deben estar acompañados de un proceso de pensamiento, que se conforma de dos subprocesos: el análisis y la síntesis.     
+    p.mt-5.mb-5  Es importante tener presente que los hallazgos en un procesamiento de datos, no se logran totalmente con la obtención de un dato procesado, un número “puro” o un resultado visible; deben estar acompañados de un proceso de pensamiento, que se conforma de dos subprocesos: #[span.text-bold el análisis y la síntesis.]
 
     p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 2.]  Proceso de análisis
 
@@ -98,8 +98,6 @@
               img(src="@/assets/curso/temas/tema2/img9.png", alt="alt")  
         .row
           .col-md-6.mb-4.mb-md-0.p-4
-            h4 Conclusiones
-            p Se deducen entonces, varios aspectos clave de #[span.text-bold los procesos, en la obtención de hallazgos en la empresa:]
             ul.lista-ul    
               li
                 i.lista-ul__vineta

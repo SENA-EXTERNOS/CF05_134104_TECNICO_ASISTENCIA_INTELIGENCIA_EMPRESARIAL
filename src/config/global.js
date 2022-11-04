@@ -191,7 +191,7 @@ export default {
     {
       termino: 'Información',
       significado:
-        'Información:	resultado del procesamiento de datos cuantitativos a través de métodos estadísticos o de datos cualitativos, mediante procesos de interpretación. La información se refiere a datos procesados. ',
+        'resultado del procesamiento de datos cuantitativos a través de métodos estadísticos o de datos cualitativos, mediante procesos de interpretación. La información se refiere a datos procesados. ',
     },
     {
       termino: 'Informe',
@@ -201,7 +201,7 @@ export default {
     {
       termino: 'Interpretación',
       significado:
-        'es un proceso de pensamiento y razonamiento, que hoy día cuenta con el apoyo de software que llegan a emitir conclusiones, a partir de la integración de datos. ',
+        'es un proceso de pensamiento y razonamiento, que hoy día cuenta con el apoyo de <i>software</i> que llegan a emitir conclusiones, a partir de la integración de datos. ',
     },
     {
       termino: 'Presentación de la información',

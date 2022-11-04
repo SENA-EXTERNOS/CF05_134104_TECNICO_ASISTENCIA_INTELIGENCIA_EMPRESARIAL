@@ -47,7 +47,7 @@
  
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="52%" y="72%" numero="+")  
           .row.justify-content-center
-            p Deben dar respuesta a los objetivos planteados. Es importante que las conclusiones dejen abierta la posibilidad de interés para ahondar más en el tema, y de la importancia que juega el informe en la gestión organizacional, en el caso que se trate de la empresa. Debe tenerse en cuenta que las conclusiones #[span.text-bold NO SON UN RESUMEN DE RESULTADOS,] sino que van orientadas a mostrar lo que se proyecta con base en los hallazgos. 
+            p Deben dar respuesta a los objetivos planteados. Es importante que las conclusiones dejen abierta la posibilidad de interés para ahondar más en el tema, y de la importancia que juega el informe en la gestión organizacional, en el caso que se trate de la empresa. Debe tenerse en cuenta que las conclusiones #[span.text-bold no son un resumen de resultados,] sino que van orientadas a mostrar lo que se proyecta con base en los hallazgos. 
  
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="23%" y="53%" numero="+")  
           .row.justify-content-center
@@ -94,7 +94,7 @@
             .col-1.mt-3
                 img(src="@/assets/curso/temas/tema1/img13.png")
             .col-md-8
-                h5.mt-3.text-white Informe de gestión.
+                h5.mt-3.text-white Informe de gestión
                 p.text-small.text-white Para ampliar la información sobre la estructura y aspectos clave en la redacción de informes, lo invitamos a ver el video Informe de gestión.
             .col-md-1.mt-4
                 a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
@@ -109,7 +109,7 @@
           .row.justify-content-center.p-4                
             p Sin embargo, la emisión de informes bajo normas técnicas, forma parte de las políticas organizacionales y del tipo de empresa. En la medida en que la empresa se encuentre más formalizada en sus procesos, y si la empresa trabaja bajo estándares nacionales de producción de bienes y servicios y también debe rendir los resultados de la gestión ante entes externos, el uso de las normas técnicas resulta obligatorio.
 
-    p.mt-5.mb-5  Introducción	Y estas normas deben estar contenidas en la realización de los informes de gestión. 
+    p.mt-5.mb-5  Y estas normas deben estar contenidas en la realización de los informes de gestión. 
     .tarjeta.color-borde-slider.color-slider.p-3.mt-5
       SlyderA(tipo="b").bg5
         .row
@@ -141,10 +141,10 @@
         .row
           .col-md-6.mb-4.mb-md-0.p-4                        
             p En Colombia, la norma técnica para la emisión de informes empresariales, conocidos como Informes Ejecutivos, es la Guía Técnica Colombiana GTC-185 estipulada por el Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC), ente certificador nacional para la elaboración de documentación organizacional. 
-            p.mt-5 Para el caso de los informes, en el punto 9 de la GTC-185, se establecen las clases de informes, sus tipos de uso, además de las características de redacción y presentación. Como apoyo, el ICONTEC (2022), también ofrece un material didáctico para la comprensión y elaboración de estos informes, el cual puede visitar en el material complementario, con el nombre #[span.text-bold Normas Icontec: Guía 2022.]
+            p.mt-5 Para el caso de los informes, en el punto 9 de la GTC-185, se establecen las clases de informes, sus tipos de uso, además de las características de redacción y presentación.
           .col-md-6
             figure
-              img(src="@/assets/curso/temas/tema3/img6.png", alt="alt") 
+              img(src="@/assets/curso/temas/tema3/img8.png", alt="alt") 
 
     .row.justify-content-md-center              
       .col-md-11                         

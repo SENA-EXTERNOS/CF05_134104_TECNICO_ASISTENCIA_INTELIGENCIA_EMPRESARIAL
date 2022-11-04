@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Hallazgos, interpretación y presentación de la información
-        p.mb-4 A continuación, se ubica una serie de preguntas que permiten evaluar el aprendizaje obtenido en cuanto al procesamiento de datos estadísticos. Se visualiza una serie de 10 preguntas de verdadero y falso, para seleccionar la opción que corresponda. 
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

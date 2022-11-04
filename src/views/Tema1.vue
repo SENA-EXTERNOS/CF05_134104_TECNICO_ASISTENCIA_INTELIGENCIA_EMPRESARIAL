@@ -108,7 +108,7 @@
             ul.lista-ul    
               li
                 i.lista-ul__vineta
-                | Obtener información cuantitativa de producción y ventas
+                | Obtener información cuantitativa de producción y ventas.
               li
                 i.lista-ul__vineta
                 | Determinar las causas de la disminución de las ventas.
@@ -116,14 +116,14 @@
                 i.lista-ul__vineta
                 | Generar estrategias para el incremento de las ventas. 
 
-    p.mt-5.mb-5 Es evidente que el logro de esos objetivos, amerita un proceso de diagnóstico, que inició por identificar: #[span.text-bold ¿QUÉ SE QUIERE CONOCER?] Y para cada objetivo, se establecieron las variables o datos que debían ser recabados.
+    p.mt-5.mb-5 Es evidente que el logro de esos objetivos, amerita un proceso de diagnóstico, que inició por identificar: #[span.text-bold ¿Qué se quiere conocer?] Y para cada objetivo, se establecieron las variables o datos que debían ser recabados.
 
     .row.justify-content-center.mt-5
       .col-sm-12
         figure
           img(src="@/assets/curso/temas/tema1/img6.png", alt="alt")   
 
-    h3.mt-5 Etapa 3.
+    h3.mt-5 Etapa 3
     p.mt-5.mb-5  Con los datos recolectados, se inicia la etapa de procesamiento de los datos que, como se observa, cuenta con un componente cuantitativo y otro cualitativo, obligando a integrar los datos para generar datos conjugados, es decir, información.              
 
     .row.justify-content-center.mt-5
@@ -182,7 +182,7 @@
 
     .row.align-items-end.bg3.h4.p-3.mt-5 Conclusiones
 
-    h5 Etapa 5.
+    h5 Etapa 5
     p.mt-5.mb-5 Se prosigue con la generación de hallazgos, como etapa de cierre. En este ciclo, se debe asegurar el cumplimiento del objetivo.
 
     .row.justify-content-center.mt-5
@@ -229,7 +229,7 @@
                 i.lista-ul__vineta
                 span  Desarrollar un análisis de impacto de las estrategias, en la rentabilidad.
 
-    p.mt-5.mb-5 En el ejemplo anterior, se evidencia un proceso formal de obtención de hallazgos, a partir del procesamiento de datos, que se convierte en procedimiento y conocimiento empresarial (know how), y aporta a la veracidad, pertinencia y oportunidad de las decisiones gerenciales.
+    p.mt-5.mb-5 En el ejemplo anterior, se evidencia un proceso formal de obtención de hallazgos, a partir del procesamiento de datos, que se convierte en procedimiento y conocimiento empresarial (#[i know how]), y aporta a la veracidad, pertinencia y oportunidad de las decisiones gerenciales.
 
     <Separador></Separador>
     #t_1_2.titulo-segundo.color-acento-contenido.mt-5
@@ -239,7 +239,7 @@
       .tarjeta
         .row.justify-content-center
           .col-sm-6.mb-3
-            p.mt-5.mb-5 En cuanto a la complejidad de los cálculos matemáticos para el procesamiento de los datos estadísticos, se genera la necesidad de apoyarse en herramientas tecnológicas, de las cuales Excel, es la herramienta base, como hoja de cálculo. Sin embargo, vemos que han surgido en el mercado diversos software estadísticos especializados, con licencia propia, los cuales pueden ser adquiridos por las empresas, para el manejo de los datos. 
+            p.mt-5.mb-5 En cuanto a la complejidad de los cálculos matemáticos para el procesamiento de los datos estadísticos, se genera la necesidad de apoyarse en herramientas tecnológicas, de las cuales Excel, es la herramienta base, como hoja de cálculo. Sin embargo, vemos que han surgido en el mercado diversos #[i software] estadísticos especializados, con licencia propia, los cuales pueden ser adquiridos por las empresas, para el manejo de los datos. 
             .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
               .row.justify-content-center.p-4                
                 p Asimismo, los sistemas de información empresarial, para la gerencia, las ventas, la producción o la logística, incorporan innumerables herramientas para el procesamiento de los datos y su conversión en información. 
@@ -313,8 +313,8 @@
                 .col-md-1.mt-3
                     img(src="@/assets/curso/temas/tema1/img13.png")
                 .col-md-8
-                    h5.mt-3.text-white Los 7 mejores programas de software estadístico
-                    p.text-small.text-white Lo invitamos a leer en el material complementario, el artículo #[span.text-bold Los 7 mejores programas de software estadístico,] donde puede encontrar una gama importante de software utilizados en las empresas, surgiendo cada vez mayores facilidades para su manejo y mejores opciones de visualización y generación de informes de gestión. 
+                    h5.mt-3.text-white Los 7 mejores programas de #[i software] estadístico
+                    p.text-small.text-white Lo invitamos a leer en el material complementario, el artículo #[span.text-bold Los 7 mejores programas de #[i software] estadístico,] donde puede encontrar una gama importante de #[i software] utilizados en las empresas, surgiendo cada vez mayores facilidades para su manejo y mejores opciones de visualización y generación de informes de gestión. 
                 .col-md-1.mt-4
                     a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Técnicas, herramientas e instrumentos de recolección de datos más utilizados en las empresas.pdf')" target="_blank")
                       span Descargar
