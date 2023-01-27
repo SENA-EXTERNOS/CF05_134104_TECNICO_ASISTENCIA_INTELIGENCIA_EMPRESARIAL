@@ -38,64 +38,70 @@
     #t_1_1.titulo-segundo.color-acento-contenido.mt-5
       h2 1.1 Relación de los datos con los objetivos de análisis 
 
-    p.mt-5.mb-5  Ahora bien, en todo proceso de análisis, #[span.text-bold se parte de un objetivo a lograr], que amerita un #[span.text-bold producto o resultado] de análisis, es decir, un #[span.text-bold hallazgo,] como podemos observar en la siguiente figura.     
+    p.mt-5.mb-5  En todo proceso de análisis #[b se parte de un objetivo propuesto], que amerita un #[b producto o resultado] de análisis, es decir, un #[b hallazgo]:
 
-    p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 1.]  Proceso de análisis 
+    p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 1.]  <br><em>Proceso de análisis</em> 
     figure.mt-5
       img(src="@/assets/curso/temas/tema1/img2.png", alt="alt")
 
-    p.mt-5.mb-5  Ese hallazgo, transita por un proceso científico de investigación o diagnóstico, que posee cinco etapas particulares, las cuales se constituyen en un ciclo recursivo.
-    p.mb-5 Conozcamos cada una de esas etapas:
+    p.mt-5.mb-5  El hallazgo fijado, transita por un proceso científico de investigación o diagnóstico, que posee cinco etapas particulares, las cuales se constituyen en un ciclo recursivo.
+
+    p.mb-5 Tales etapas se definen y detallan así:
 
     .row.justify-content-center
       .col-lg-7
-        ImagenInfograficaB.color-acento-botones
+        ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img3.png', alt='')
+              img(src='@/assets/curso/temas/tema1/img3.svg', alt='')
 
-          div(x="37%" y="14%" tooltip="Ver más" numero="+")
-            .tarjeta.white-card.p-4
-              p.mb-3  Todo proceso de análisis debe partir de un objetivo. El objetivo debe ser alcanzable, y manifestar la necesidad de conocimiento de una #[span.text-bold variable] o de un elemento que se quiere investigar. Si el objetivo es conocer la aceptación de un producto por parte de un consumidor en un estudio de factibilidad, la variable es “la aceptación”, y se puede fundamentar en varios datos: aceptación del precio, aceptación del tipo de empaque, aceptación del sabor, entre otros aspectos propios del producto. 
+          .tarjeta.color-acento-botones.p-3(x="48.2%" y="23%" numero="1")
+              h4 Establecimiento del objetivos
+              p.mb-3 Todo proceso de análisis debe partir de un objetivo. El objetivo debe ser alcanzable y manifestar la necesidad de conocimiento de una variable o de un elemento que se quiere investigar. Si el objetivo es conocer la aceptación de un producto, por parte de un consumidor en un estudio de factibilidad, la variable es “la aceptación” y se puede fundamentar en varios datos: aceptación del precio, aceptación del tipo de empaque, aceptación del sabor, entre otros aspectos propios del producto. 
 
-          div(x="95%" y="32%" tooltip="Ver más" numero="+")
-            .tarjeta.white-card.p-4
-              p.mb-3 Es el proceso de establecimiento del dato, de la selección de la fuente del dato y del diseño del proceso de recolección. Del tipo de dato depende la fuente de conveniencia; también puede ser que el tipo de fuente ya existente (bases de datos históricas), indique el tipo de dato con que se cuenta. La fuente del dato puede ser personal o digital, y es por eso que el proceso de diagnóstico va a depender del tipo de fuente. Si se trata de muy pocas personas, y el dato es cualitativo, puede obtenerse a través de entrevistas; si se trata de muchas personas y los datos son cuantitativos, pueden obtenerse a través de encuestas. También existen herramientas de medición para datos de objetos o realidades. Un médico recaba el dato de la temperatura con un termómetro; un albañil determina el nivel de colocación de una baldosa con una curva de nivel, y un chef mide la cantidad de un ingrediente con una balanza. Asimismo, el investigador utiliza guiones de entrevistas, cuestionarios, videos, grabaciones de audio, fotografías, listas de chequeo, entre otros instrumentos de recopilación en su proceso diagnóstico, #[span.text-bold hasta recolectar el dato.]   
-          
-          div(x="91%" y="82%" tooltip="Ver más" numero="+")
-            .tarjeta.white-card.p-4
-              p.mb-3 Recolectados los datos brutos, es decir, tal y como se colectan con los diferentes instrumentos de diagnóstico, se pasan entonces por las herramientas de procesamiento, en especial, si se tratan de datos cuantitativos o números, de los cuales se pueden obtener frecuencias o cantidades totales, proporciones totales o parciales, proyecciones en años futuros, entre otros datos más específicos que se pueden lograr con los procesadores de datos tecnológicos, o con los procesos manuales, que permiten #[span.text-bold conjugar los de una población general de la cual se obtienen los datos], población o muestra de personas y/o objetos. 
-                            
-          div(x="9%" y="70%" tooltip="Ver más" numero="+")
-            .tarjeta.white-card.p-4
-              p.mb-3 El análisis es el #[span.text-bold proceso de razonamiento] de las causas, consecuencias, procedencias, tendencias, utilidades, veracidad, oportunidad, o cualquier otro aspecto que se quiera generar a partir de los datos, teniendo en cuenta el objetivo que dio origen a su recolección. Todo análisis es un proceso racional y, aunque existen procesadores de datos tecnológicos en el mercado, la empresa aún no puede prescindir del conocimiento humano para la interpretación de los procesos.
-                                   
-       
-          div(x="1%" y="37%" tooltip="Ver más" numero="+")
-            .tarjeta.white-card.p-4
-              p.mb-3 #[span.text-bold Es el resultado, producto del análisis.] Todo resultado va atado a su objetivo previo. Puede ser un enunciado o conjunto de enunciados, cantidades globales, predicciones o discusión de resultados, previos al inicio del estudio.
-                                 
+          .tarjeta.color-acento-botones.p-3(x="66.1%" y="33.5%" numero="2")
+              h4 Diagnóstico (Recolección de datos)
+
+              p.mb-3 Es el proceso de establecimiento del dato, de la selección de la fuente del dato y del diseño del proceso de recolección. Del tipo de dato depende la fuente de conveniencia; también puede ser que el tipo de fuente ya existente (bases de datos históricas), indique el tipo de dato con que se cuenta. La fuente del dato puede ser personal o digital, y es por eso que el proceso de diagnóstico va a depender del tipo de fuente. Si se trata de muy pocas personas y el dato es cualitativo, puede obtenerse a través de entrevistas; si se trata de muchas personas y los datos son cuantitativos, pueden obtenerse a través de encuestas. 
+
+              p.mb-3 También existen herramientas de medición para datos de objetos o realidades. Un médico recaba el dato de la temperatura con un termómetro; un albañil determina el nivel de colocación de una baldosa con una curva de nivel, y un chef mide la cantidad de un ingrediente, con una balanza. Asimismo, el investigador utiliza guiones de entrevistas, cuestionarios, videos, grabaciones de audio, fotografías, listas de chequeo, entre otros instrumentos de recopilación, en su proceso diagnóstico, <b>hasta recolectar el dato</b>.  
+
+          .tarjeta.color-acento-botones.p-3(x="62.2%" y="65.6%" numero="3")
+              h4 Procesamiento de datos
+              
+              p.mb-3 Recolectados los datos brutos, es decir, tal y como se colectan con los diferentes instrumentos de diagnóstico, se pasan entonces por las herramientas de procesamiento, en especial, si se trata de datos cuantitativos o números de los cuales se pueden obtener frecuencias o cantidades totales, proporciones totales o parciales, proyecciones para años futuros, entre otros datos más específicos, que se pueden lograr con los procesadores de datos tecnológicos o con los procesos manuales que permiten conjugar los de una población general de la cual se obtienen los datos, con una población o muestra de personas y/u objetos. 
+
+          .tarjeta.color-acento-botones.p-3(x="34.2%" y="65.3%" numero="4")
+              h4 Análisis (Interpretación de datos)
+              p.mb-3 El análisis es el proceso de razonamiento de las causas, consecuencias, procedencias, tendencias, utilidades, veracidad, oportunidad, o cualquier otro aspecto que se quiera generar a partir de los datos, teniendo en cuenta el objetivo que dio origen a su recolección. Todo análisis es un proceso racional y, aunque existen procesadores de datos tecnológicos en el mercado, la empresa aún no puede prescindir del conocimiento humano para la interpretación de los procesos. 
+
+          .tarjeta.color-acento-botones.p-3(x="31.5%" y="34.5%" numero="5")
+              h4 Generación de hallazgos
+              p.mb-3 <b>Es el resultado, producto del análisis</b>. Todo resultado va atado a su objetivo previo. Puede ser un enunciado o conjunto de enunciados, cantidades globales, predicciones o discusión de resultados, previos al inicio del estudio.
+
     .row.justify-content-center.mt-5
       .col-md-10
         .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
           .row.justify-content-center.p-4 
-            p De acuerdo con lo anterior, y habiendo establecido el objetivo de conocer la aceptación de un producto por parte de un consumidor en un estudio de factibilidad, el empresario tendrá que conocer con números y otros datos cualitativos, si es factible o no emprender con el producto que se tiene estudiado; es decir, si en cuanto al mercado, los requerimientos técnicos y el estudio económico, legal y ambiental, es posible conformar la empresa para la producción de ese nuevo producto, o si en una empresa ya existente, es posible ampliar la gama de productos.         
+            p De acuerdo con lo anterior y habiendo establecido el objetivo de conocer la aceptación de un producto, por parte de un consumidor en un estudio de factibilidad, el empresario tendrá que conocer con números y otros datos cualitativos, si es factible o no, emprender con el producto que se tiene estudiado; es decir si, en cuanto al mercado, con los requerimientos técnicos y el estudio económico, legal y ambiental, es posible conformar la empresa para la producción de ese nuevo producto o si, en una empresa ya existente, es posible ampliar la gama de productos.
 
-    p.mt-5.mb-5 A continuación, le presentamos un ejemplo donde se muestra cada una de estas etapas y su aplicación en el proceso de la toma de decisiones por parte de la empresa. 
-    p.mb-5 Relación de los datos con los objetivos de análisis - Caso de estudio empresarial.
 
-    .row.align-items-end.bg3.h4.p-3 Introducción
+    .row.align-items-end.bg3.h4.p-3.mt-5 Relación de los datos con los objetivos de análisis
+    p.mt-3.mb-3 El siguiente es un ejemplo de cada una de las etapas y su aplicación en el proceso de la toma de decisiones por parte de la empresa:
+
     .row.justify-content-center
       .tarjeta
         .row.justify-content-center
           .col-sm-7.mb-3
+            h4.mt-3 Introducción de la situación
             p.mt-5 Una panadería está interesada en conocer la razón de las bajas de sus ventas, observándose una disminución de la demanda, pero solo por presunciones de la gerencia. El monto de ventas es evidente en los estados de cuenta, pero la disminución de la demanda se ha observado en la merma de clientes en el local, y en mercancía perdida por tiempo de exposición, luego de la producción, especialmente los postres fríos. 
           .col-sm-5.mb-3.mt-5
             figure
               img(src="@/assets/curso/temas/tema1/img4.png", alt="alt") 
 
-    .row.align-items-end.bg3.h4.p-3 Desarrollo
-    p.mt-5.mb-5 El gerente, con la ayuda del administrador, emprende un proceso de investigación empresarial, con tres objetivos precisos:
+    .row.mt-5
+      h4 Etapa 1: Desarrollo
+      p.mt-5.mb-5 El gerente, con la ayuda del administrador, emprende un proceso de investigación empresarial, con tres objetivos precisos:
 
     .row.justify-content-center.mt-5
       .col-md-10
@@ -116,14 +122,16 @@
                 i.lista-ul__vineta
                 | Generar estrategias para el incremento de las ventas. 
 
+    h4.mt-5 Etapa 2: Diagnóstico y o propósito
+    
     p.mt-5.mb-5 Es evidente que el logro de esos objetivos, amerita un proceso de diagnóstico, que inició por identificar: #[span.text-bold ¿Qué se quiere conocer?] Y para cada objetivo, se establecieron las variables o datos que debían ser recabados.
 
     .row.justify-content-center.mt-5
       .col-sm-12
         figure
-          img(src="@/assets/curso/temas/tema1/img6.png", alt="alt")   
+          img(src="@/assets/curso/temas/tema1/img6.svg", alt="alt")   
 
-    h3.mt-5 Etapa 3
+    h4.mt-5 Etapa 3: Procesamiento de los datos
     p.mt-5.mb-5  Con los datos recolectados, se inicia la etapa de procesamiento de los datos que, como se observa, cuenta con un componente cuantitativo y otro cualitativo, obligando a integrar los datos para generar datos conjugados, es decir, información.              
 
     .row.justify-content-center.mt-5
@@ -136,25 +144,28 @@
                   img(src='@/assets/curso/temas/tema1/img7.png', alt='')
               
             h3.text-center.mb-5 Procesamiento de datos cuantitativos
-            p #[span.text-bold Herramientas:] procesadores de datos estadísticos, como Excel.
-            p #[span.text-bold Dato 1: ] establecimiento de frecuencias de ocurrencia de eventos.
-            p #[span.text-bold Dato 2: ] establecimiento de proporciones (%).
+            p #[span.text-bold Herramientas:] Procesadores de datos estadísticos, como Excel.
+            p #[span.text-bold Dato 1: ] Establecimiento de frecuencias de ocurrencia de eventos.
+            p #[span.text-bold Dato 2: ] Establecimiento de proporciones (%).
           .col-md.tarjeta.tarjeta-gris.p-4
             .row.justify-content-center.mb-4
               .col-6
                 figure
                   img(src='@/assets/curso/temas/tema1/img8.png', alt='')
             h3.text-center.mb-5 Procesamiento de datos cualitativos
-            p #[span.text-bold Herramientas:] registros documentales / tablas de relación.
-            p #[span.text-bold Dato 1: ] opiniones del personal, en relación con las fallas.
-            p #[span.text-bold Dato 2: ] percepciones con respecto a la competencia.
-            p #[span.text-bold Dato 3: ] opiniones de los clientes, en cuanto a los atributos de calidad del producto.
+            p #[span.text-bold Herramientas:] Registros documentales / tablas de relación.
+            p #[span.text-bold Dato 1: ] Opiniones del personal, en relación con las fallas.
+            p #[span.text-bold Dato 2: ] Percepciones con respecto a la competencia.
+            p #[span.text-bold Dato 3: ] Opiniones de los clientes, en cuanto a los atributos de calidad del producto.
+            
+    h4.mt-5 Etapa 3: Procesamiento de los datos
+
 
     .row.justify-content-center.mt-5
       .col-md-11
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.bloque-img-left(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img9.png')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img9.svg')})`}"
           )                             
           .bloque-texto-g__texto.bloque-text-rigth.p-3
             ul.lista-ul    
@@ -180,10 +191,11 @@
                 i.lista-ul__vineta
                 span.text-small Análisis real del impacto de las estrategias en los indicadores de rentabilidad.
 
-    .row.align-items-end.bg3.h4.p-3.mt-5 Conclusiones
+    h4.mt-5 Etapa 5: Conclusiones
 
     h5 Etapa 5
     p.mt-5.mb-5 Se prosigue con la generación de hallazgos, como etapa de cierre. En este ciclo, se debe asegurar el cumplimiento del objetivo.
+
 
     .row.justify-content-center.mt-5
       .col-md-9
@@ -257,12 +269,13 @@
                 img(src="@/assets/curso/temas/tema1/img13.png")
             .col-md-8
                 h5.mt-3.text-white Análisis de la minería de datos aplicada en empresas del sector retail
-                p.text-small.text-white Para ampliar la información, lo invitamos a leer el documento Análisis de la minería de datos aplicada en empresas del sector retail, el cual se encuentra en el material complementario.
+                p.text-small.text-white Profundice en este punto, estudiando con atención el anexo Análisis de la minería de datos aplicada en empresas del sector retail.
+
             .col-md-2.mt-4
                 a.boton.color-acento-botones(href="https://repositorio.ucsp.edu.pe/bitstream/20.500.12590/16199/1/DONGO_POZO_ALD_MIN.pdf" target="_blank")
                   span Ver más 
                   i.fa.fa-link   
-    p.mt-5.mb-5 En el transcurso del procesamiento tecnológico de los datos, encontramos dos temas importantes: 
+    p.mt-5.mb-5 En el transcurso del procesamiento tecnológico de los datos, se encuentran dos temas importantes: 
 
     .tarjeta.color-borde-slider.color-slider.p-3.mt-5
       SlyderA(tipo="b").bg5
@@ -282,7 +295,8 @@
                       img(src="@/assets/curso/temas/tema1/img13.png")
                   .col-md-8
                       h5.mt-3.text-white La Digitalización y la Industria 4.0
-                      p.text-small.text-white Para ampliar la información, lo invitamos a leer el documento La Digitalización y la Industria 4.0, el cual se encuentra en el material complementario.
+                      p.text-small.text-white Amplíe sus conocimientos en tecnologías de procesamiento de datos explorando el anexo La Digitalización y la Industria 4.0.
+
                   .col-md-2.mt-4
                     a.boton.color-acento-botones(href="https://industria.ccoo.es/4290fc51a3697f785ba14fce86528e10000060.pdf" target="_blank")
                       span Ver más 
@@ -302,7 +316,7 @@
       .col-md-9
         .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
           .row.justify-content-center.p-4                
-            p Tenga presente siempre que de la calidad de los datos recabados, dependerá la utilidad y contribuciones de las herramientas para el procesamiento y generación de datos estadísticos.
+            p De la calidad de los datos recabados, dependerá la utilidad y las contribuciones de las herramientas para el procesamiento y generación de datos estadísticos.
 
     .row.justify-content-center.bg4.mg-img.mt-5.mb-5.mg-img-final  
      .col-md-11          
@@ -315,7 +329,7 @@
                     img(src="@/assets/curso/temas/tema1/img13.png")
                 .col-md-8
                     h5.mt-3.text-white Los 7 mejores programas de #[i software] estadístico
-                    p.text-small.text-white Lo invitamos a leer en el material complementario, el artículo #[span.text-bold Los 7 mejores programas de #[i software] estadístico,] donde puede encontrar una gama importante de #[i software] utilizados en las empresas, surgiendo cada vez mayores facilidades para su manejo y mejores opciones de visualización y generación de informes de gestión. 
+                    p.text-small.text-white Conozca los #[i software] estadísticos más utilizados en las empresas, en función del buen manejo y mejores opciones de visualización y generación de informes de gestión; estudie a profundidad el anexo Los 7 mejores programas de #[i software] estadístico. 
                 .col-md-2.mt-4
                   a.boton.color-acento-botones(href="https://canalinnova.com/los-7-mejores-programas-de-software-estadistico/" target="_blank")
                     span Ver más 

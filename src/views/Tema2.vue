@@ -7,15 +7,15 @@
         span 2
       h1 La interpretación de los hallazgos - Procesos y conclusiones
 
-    p.mt-5.mb-5  Es importante tener presente que los hallazgos en un procesamiento de datos, no se logran totalmente con la obtención de un dato procesado, un número “puro” o un resultado visible; deben estar acompañados de un proceso de pensamiento, que se conforma de dos subprocesos: #[span.text-bold el análisis y la síntesis.]
+    p.mt-5.mb-5 Los hallazgos, en un procesamiento de datos, no se logran totalmente con la obtención de un dato procesado, un número “puro” o un resultado visible; deben estar acompañados de un proceso de pensamiento que se conforma de dos subprocesos: el análisis y la síntesis.
 
-    p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 2.]  Proceso de análisis
+    p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 2.]  <br><em>Proceso de análisis</em>
 
     .row.justify-content-center
       .col-sm-9.mb-3.mt-5
         figure
           img(src="@/assets/curso/temas/tema2/img1.png", alt="alt") 
-    p.mt-5.mb-5  Aprendamos sobre cada uno de estos subprocesos: 
+    p.mt-5.mb-5  Tenga claros los siguientes aspectos importantes de cada uno de estos subprocesos: 
     .row.justify-content-center
       .col-sm-10.mb-3.mt-5
         .tarjeta--container.row.justify-content-center
@@ -34,7 +34,8 @@
       .tarjeta
         .row.justify-content-center
           .col-sm-6.mb-3
-            p.mt-5 Por otro lado, en metodología de la investigación, el proceso de análisis es conocido como hermenéutica, en donde el investigador hace uso de sus diferentes potenciales de pensamiento racional para desestructurar y reestructurar su objeto de investigación. 
+            p.mt-5 Por otro lado, en metodología de la investigación, el proceso de análisis es conocido como #[b hermenéutica], en donde el investigador hace uso de sus diferentes potenciales de pensamiento racional para desestructurar y reestructurar su objeto de investigación. 
+
             .row.justify-content-center.mt-5
               .col-md-10
                 .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
@@ -45,7 +46,8 @@
             figure
               img(src="@/assets/curso/temas/tema2/img4.png", alt="alt")
 
-    p.mt-5.mb-5 A continuación, presentamos un ejemplo, en el cual se explica el desarrollo de los procesos de análisis y síntesis, en un caso empresarial.  
+    p.mt-5.mb-5 A continuación, se muestra un ejemplo que explica el desarrollo de los procesos de análisis y síntesis, en un caso empresarial:  
+
     p.mb-5 Los procesos clave en la obtención de hallazgos - Caso de estudio empresarial.
 
     .tarjeta.color-borde-slider.color-slider.p-3.mt-5
@@ -123,7 +125,7 @@
                 .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
                   .row.justify-content-center.p-4                
                     p En efecto, durante el desarrollo de los procesos empresariales, se amerita de información que debe ser verificada por los analistas o tomadores de decisiones, requiriendo que esa información sea cabalmente obtenida con base en las políticas de la empresa, métodos formales de obtención, análisis e interpretación y documentación adecuada, para su presentación y comprensión. 
-            p.mt-3 En pocas palabras, #[span.text-bold las decisiones se toman a partir de los hallazgos, los hallazgos generan conclusiones, y las conclusiones de los análisis orientan a las decisiones.]
+            p.mt-3 En pocas palabras, #[b las decisiones se toman a partir de los hallazgos, los hallazgos generan conclusiones y las conclusiones de los análisis orientan a las decisiones.]
           .col-sm-6.mb-3.mt-5
             figure
               img(src="@/assets/curso/temas/tema2/img11.png", alt="alt") 

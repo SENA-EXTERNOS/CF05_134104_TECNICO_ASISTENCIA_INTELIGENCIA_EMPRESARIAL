@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Hallazgos, interpretación y presentación de la información',
     descripcionCurso:
-      'Este componente, formula la procedencia y utilidad de los hallazgos en función de las necesidades estratégicas de la empresa. Resalta la importancia de la visión de procesos en la obtención, interpretación y presentación de hallazgos, como también la formalidad en la entrega de la información, a partir de informes estructurados y siguiendo los parámetros técnicos y normativos de cada organización.',
+      'Este componente aborda aspectos claves de la procedencia y utilidad de los hallazgos en función de las necesidades estratégicas de la empresa. Resalta la importancia de la visión de procesos en la obtención, interpretación y presentación de hallazgos, como también la formalidad en la entrega de la información, a partir de informes estructurados y siguiendo los parámetros técnicos y normativos de cada organización.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -245,7 +245,7 @@ export default {
       referencia:
         'Villarreal, J., Rosales, Y. & Rodrigo, A. (2018). La perspectiva hermenéutica y el sentido de la comunicación en el contexto de la sociocultura. <i>Anagramas - Rumbos y sentidos de la comunicación, 16(32). p.85-93.</i>',
       link:
-        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1692-25222018000100085 ',
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1692-25222018000100085',
     },
   ],
   creditos: {

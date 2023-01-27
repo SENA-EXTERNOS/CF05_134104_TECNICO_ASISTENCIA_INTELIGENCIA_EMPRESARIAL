@@ -13,7 +13,9 @@
             figure
               img(src="@/assets/curso/temas/tema3/img1.png", alt="alt")        
           .col-sm-6.mb-3
-            p.mt-5 Para concluir, llegamos al cierre del procesamiento de datos estadísticos, la presentación de las conclusiones, las cuales ofrecen la información, recordando que los datos se someten a procesamiento estadístico para la obtención de información, siendo que los datos por sí solos, no aportan información. Aunque de los sistemas informáticos para la gestión de la información se pueden obtener informes, el análisis del personal experto es fundamental para el cruce (triangulación) de información, comparación con informes históricos, detección de variables clave y puntos de control, identificación de falencias, orientación de nuevas decisiones, entre otros elementos que conforman un informe digital o impreso, producto del procesamiento estadístico de los datos.
+            p.mt-5 La presentación de la información es el punto conclusivo en el procesamiento de datos estadísticos y la descripción de las conclusiones (las cuales ofrecen la información, recordando que los datos se someten a procesamiento estadístico para la obtención de la misma, siendo que los datos, por sí solos, no aportan información). 
+
+            p Aunque de los sistemas informáticos para la gestión de la información se pueden obtener informes, el análisis del personal experto es fundamental para el cruce (triangulación) de información, comparación con informes históricos, detección de variables clave y puntos de control, identificación de falencias, orientación de nuevas decisiones, entre otros elementos que conforman un informe digital o impreso, producto del procesamiento estadístico de los datos. 
 
     p.mt-5.mb-5 Lo invitamos a ver el siguiente video, donde se amplía la temática sobre la información y su presentación.
     figure
@@ -21,8 +23,7 @@
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.align-items-end.bg3.h4.p-3.mt-5 Estructura básica de elementos para la elaboración de un informe  
-    p.mt-5.mb-5 Y ¿cómo debe ser la estructura del informe que se presenta? A continuación, se exponen cada uno de los elementos.
-    p.mb-5 Todo analista que amerite la elaboración de un informe, debe contemplar la siguiente estructura de elementos y sus aspectos de interés.
+    p.mt-5.mb-5 ¿Cómo debe ser la estructura del informe que se presenta? Todo analista que asuma la elaboración de un informe, debe contemplar la siguiente estructura de elementos y sus aspectos de interés:
 
     .row.justify-content-center.mt-5    
       .col-md-8
@@ -35,30 +36,36 @@
 
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="41%" y="12%" numero="+")  
           .row.justify-content-center
+            h4 Portada
             p Se presentan los datos de la institución/empresa, título de informe, tema de interés, autor y fecha de elaboración del informe.
 
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="79%" y="13%" numero="+")  
           .row.justify-content-center
+            h4 Introducción
             p Se presenta al lector, la generalidad del contenido que encontrará en cuanto al ordenamiento de la estructura, objetivo del informativo, qué se persigue con el informe. Se relacionan los usuarios de la información y las contribuciones de la misma.
- 
+
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="68%" y="58%" numero="+")  
           .row.justify-content-center
+            h4 Desarrollo
             p Se organiza el contenido del informe en función de los objetivos de análisis, para que contengan un orden lógico secuencial de razonamiento de dicho proceso analítico. Con esto se quiere precisar que los resultados, en un informe, no se presentan de manera aleatoria, sino que deben ser parte de un hilo conductor. 
- 
+
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="52%" y="72%" numero="+")  
           .row.justify-content-center
-            p Deben dar respuesta a los objetivos planteados. Es importante que las conclusiones dejen abierta la posibilidad de interés para ahondar más en el tema, y de la importancia que juega el informe en la gestión organizacional, en el caso que se trate de la empresa. Debe tenerse en cuenta que las conclusiones #[span.text-bold no son un resumen de resultados,] sino que van orientadas a mostrar lo que se proyecta con base en los hallazgos. 
- 
+            h4 Conclusiones
+            p Deben dar respuesta a los objetivos planteados. Es importante que las conclusiones dejen abierta la posibilidad de interés para ahondar más en el tema, y de la importancia que juega el informe en la gestión organizacional, en el caso que se trate de la empresa. Debe tenerse en cuenta que las conclusiones no son un resumen de resultados, sino que van orientadas a mostrar lo que se proyecta con base en los hallazgos. 
+
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="23%" y="53%" numero="+")  
           .row.justify-content-center
+            h4 Referencias
             p Es de suma importancia referir las fuentes de la información que se hayan tomado como apoyo, desde la obtención de los datos, hasta el proceso de análisis y discusión de resultados.  
 
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="24%" y="19%" numero="+")  
           .row.justify-content-center
+            h4 Anexos
             p En los anexos, se inserta cualquier información de apoyo que no sea propia del proceso de análisis emprendido. También se usan los anexos para referir tablas o figuras cuantiosas, que hacen perder el hilo conductor de la lectura del informe. Se suelen incluir imágenes u otros elementos gráficos que no son estrictamente requeridos en el texto principal, sino que juegan un rol de apoyo en la redacción. 
+            
+    p.mt-5.mb-5 En la elaboración de informes, se presentan algunos aspectos de interés que se deben tener en cuenta durante el proceso. Estos aspectos son: 
 
-    p.mt-5.mb-5 En la elaboración de informes, se presentan algunos aspectos de interés que se deben tener en cuenta durante el proceso.
-    p.mb-5  Estos aspectos son: 
 
     .row.justify-content-center.mt-5 
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
@@ -113,14 +120,16 @@
     .tarjeta.color-borde-slider.color-slider.p-3.mt-5
       SlyderA(tipo="b").bg5
         .row
-          .col-md-6.mb-4.mb-md-0.p-4                        
+          .col-md-6.mb-4.mb-md-0.p-4
+            h4 Ordenamientos técnicos de gestión                  
             p Si una empresa genera productos y servicios exportables, seguramente deberá cumplir ordenamientos técnicos de producción y calidad que tendrá que demostrar en sus informes de gestión, con normativas internacionales, además de normativas nacionales, que permitan la exportación.
           .col-md-6
             figure
               img(src="@/assets/curso/temas/tema3/img6.png", alt="alt")
 
         .row
-          .col-md-6.mb-4.mb-md-0.p-4                        
+          .col-md-6.mb-4.mb-md-0.p-4   
+            h4 Normatividad técnica de los entes certificadores                     
             p Cuando una empresa ha optado por la certificación de sus procesos y servicios, amerita la generación de informes bajo las normas técnicas del ente certificador. 
           .col-md-6
             figure
@@ -139,26 +148,29 @@
                       span Ver más 
                       i.fa.fa-link
         .row
-          .col-md-6.mb-4.mb-md-0.p-4                        
+          .col-md-6.mb-4.mb-md-0.p-4  
+            h4 Normatividad en Colombia                      
             p En Colombia, la norma técnica para la emisión de informes empresariales, conocidos como Informes Ejecutivos, es la Guía Técnica Colombiana GTC-185 estipulada por el Instituto Colombiano de Normas Técnicas y Certificación (ICONTEC), ente certificador nacional para la elaboración de documentación organizacional. 
             p.mt-5 Para el caso de los informes, en el punto 9 de la GTC-185, se establecen las clases de informes, sus tipos de uso, además de las características de redacción y presentación.
           .col-md-6
             figure
               img(src="@/assets/curso/temas/tema3/img8.png", alt="alt") 
 
-    .row.justify-content-md-center              
-      .col-md-11                         
-        .tarjeta.color-tarjeta-descargas.p-3.mt-5
-          .row.justify-content-md-center
-            .col-1.mt-3
-                img(src="@/assets/curso/temas/tema1/img13.png")
-            .col-md-8
-                h5.mt-3.text-white Normas Icontec: Guía 2022.
-                p.text-small.text-white Como apoyo, el ICONTEC (2022), también ofrece un material didáctico para la comprensión y elaboración de estos informes, el cual puede visitar en el material complementario, con el nombre Normas Icontec: Guía 2022.
-            .col-md-2.mt-4
-              a.boton.color-acento-botones(href="https://normasicontec.co/" target="_blank")
-                span Ver más 
+          .row.justify-content-md-center              
+            .col-md-11                         
+              .tarjeta.color-tarjeta-descargas.p-3.mt-5
+                .row.justify-content-md-center
+                  .col-1.mt-3
+                      img(src="@/assets/curso/temas/tema1/img13.png")
+                  .col-md-8
+                      h5.mt-3.text-white Normas Icontec: Guía 2022.
+                      p.text-small.text-white Como apoyo, el ICONTEC (2022), también ofrece un material didáctico para la comprensión y elaboración de estos informes, el cual puede visitar en el material complementario, con el nombre Normas Icontec: Guía 2022.
+                  .col-md-2.mt-4
+                    a.boton.color-acento-botones(href="https://normasicontec.co/" target="_blank")
+                      span Ver más 
                 i.fa.fa-link
+
+    
 
     .row.justify-content-center.bg4.mg-img.mt-5.mb-5.mg-img-final                   
       p.mt-5.mb-5  En el caso de los informes académicos, como apoyo para su aprendizaje, se recomienda la revisión de las Normas Internacionales APA, de la Asociación Americana de Psicología (American Psychological Association o APA en inglés). La importancia de esta norma es que es de uso internacional, y es la base de la mayoría de las normas de redacción de informes de las instituciones educativas. No obstante, la selección y uso de una norma específica para la redacción de un informe, debe poseer orientación organizacional.                                                                  
@@ -180,7 +192,7 @@
         .col-md-11
           .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
             .row.justify-content-center.p-4                
-              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para hacerlo, diríjase al menú principal, donde encontrará la síntesis, material complementario, entre otros. Adicional, lo invitamos a desarrollar la actividad didáctica para reforzar los conceptos estudiados en el componente formativo.
+              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 </template>
