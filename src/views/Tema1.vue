@@ -40,7 +40,7 @@
 
     p.mt-5.mb-5  En todo proceso de análisis #[b se parte de un objetivo propuesto], que amerita un #[b producto o resultado] de análisis, es decir, un #[b hallazgo]:
 
-    p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 1.]  <br><em>Proceso de análisis</em> 
+    p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 1]  <br><em>Proceso de análisis</em> 
     figure.mt-5
       img(src="@/assets/curso/temas/tema1/img2.png", alt="alt")
 
@@ -193,7 +193,6 @@
 
     h4.mt-5 Etapa 5: Conclusiones
 
-    h5 Etapa 5
     p.mt-5.mb-5 Se prosigue con la generación de hallazgos, como etapa de cierre. En este ciclo, se debe asegurar el cumplimiento del objetivo.
 
 

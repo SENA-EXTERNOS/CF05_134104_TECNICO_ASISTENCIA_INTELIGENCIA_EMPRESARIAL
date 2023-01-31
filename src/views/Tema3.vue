@@ -17,7 +17,8 @@
 
             p Aunque de los sistemas informáticos para la gestión de la información se pueden obtener informes, el análisis del personal experto es fundamental para el cruce (triangulación) de información, comparación con informes históricos, detección de variables clave y puntos de control, identificación de falencias, orientación de nuevas decisiones, entre otros elementos que conforman un informe digital o impreso, producto del procesamiento estadístico de los datos. 
 
-    p.mt-5.mb-5 Lo invitamos a ver el siguiente video, donde se amplía la temática sobre la información y su presentación.
+    p.mt-5.mb-5 Asimile y aprópiese de nuevos elementos sobre la información y su presentación, visualizando con atención el video que se despliega seguidamente:
+    
     figure
     .video
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

@@ -9,7 +9,7 @@
 
     p.mt-5.mb-5 Los hallazgos, en un procesamiento de datos, no se logran totalmente con la obtención de un dato procesado, un número “puro” o un resultado visible; deben estar acompañados de un proceso de pensamiento que se conforma de dos subprocesos: el análisis y la síntesis.
 
-    p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 2.]  <br><em>Proceso de análisis</em>
+    p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 2]  <br><em>Proceso de análisis</em>
 
     .row.justify-content-center
       .col-sm-9.mb-3.mt-5
@@ -87,13 +87,13 @@
             ul.lista-ul    
               li
                 i.lista-ul__vineta
-                span #[span.text-bold La necesidad de análisis.] Se parte de un objetivo, con base en un problema, una necesidad, o una oportunidad empresarial.
+                span #[span.text-bold La necesidad de análisis:] Se parte de un objetivo, con base en un problema, una necesidad, o una oportunidad empresarial.
               li
                 i.lista-ul__vineta
-                span #[span.text-bold La necesidad de obtener datos.] Se trata de recolectar elementos para el análisis, de hacer pesquisas, de buscar fuentes de datos, relacionados con la situación a analizar. 
+                span #[span.text-bold La necesidad de obtener datos:] Se trata de recolectar elementos para el análisis, de hacer pesquisas, de buscar fuentes de datos, relacionados con la situación a analizar. 
               li
                 i.lista-ul__vineta
-                span #[span.text-bold La búsqueda de fuentes.] Las fuentes de los datos son diversas y, a veces, no planeadas, inusitadas y hasta foráneas (externas). No siempre los datos están en la empresa, o los tienen los conocedores de los procesos, o ya se encuentran recolectados. Los procesos de análisis exhaustivos, dan cabida a más datos novedosos y precisos y nuevas fuentes de datos, personales, documentales, visuales, digitales, o de cualquier tipología. 
+                span #[span.text-bold La búsqueda de fuentes:] Las fuentes de los datos son diversas y, a veces, no planeadas, inusitadas y hasta foráneas (externas). No siempre los datos están en la empresa, o los tienen los conocedores de los procesos, o ya se encuentran recolectados. Los procesos de análisis exhaustivos, dan cabida a más datos novedosos y precisos y nuevas fuentes de datos, personales, documentales, visuales, digitales, o de cualquier tipología. 
          
           .col-md-6
             figure
@@ -103,13 +103,13 @@
             ul.lista-ul    
               li
                 i.lista-ul__vineta
-                span  #[span.text-bold El desarrollo del análisis de los datos.] El uso de los datos recolectados de manera específica, combinada, cruzada, depurada, realimentada, para poder generar un resultado que aporte una respuesta a la necesidad de análisis. 
+                span  #[span.text-bold El desarrollo del análisis de los datos:] El uso de los datos recolectados de manera específica, combinada, cruzada, depurada, realimentada, para poder generar un resultado que aporte una respuesta a la necesidad de análisis. 
               li
                 i.lista-ul__vineta
-                span  #[span.text-bold La obtención de hallazgos.] Puede tratarse de uno o más hallazgos, algunos convergentes, otros contradictorios, más aún cuando se analizan líneas de tiempo en la ocurrencia de eventos. Al final, debe generarse un hallazgo común, que conlleve a conclusiones generales. 
+                span  #[span.text-bold La obtención de hallazgos:] Puede tratarse de uno o más hallazgos, algunos convergentes, otros contradictorios, más aún cuando se analizan líneas de tiempo en la ocurrencia de eventos. Al final, debe generarse un hallazgo común, que conlleve a conclusiones generales. 
               li
                 i.lista-ul__vineta
-                span  #[span.text-bold La generación de soluciones.] La resolución del objetivo de análisis que, al fin y al cabo, provee soluciones empresariales emprendidas en los procesos de toma de decisiones. 
+                span  #[span.text-bold La generación de soluciones:] La resolución del objetivo de análisis que, al fin y al cabo, provee soluciones empresariales emprendidas en los procesos de toma de decisiones. 
                                
           .col-md-6
             figure
