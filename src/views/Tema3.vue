@@ -21,7 +21,7 @@
     
     figure
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/qdEAopupX7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.align-items-end.bg3.h4.p-3.mt-5 Estructura básica de elementos para la elaboración de un informe  
     p.mt-5.mb-5 ¿Cómo debe ser la estructura del informe que se presenta? Todo analista que asuma la elaboración de un informe, debe contemplar la siguiente estructura de elementos y sus aspectos de interés:
