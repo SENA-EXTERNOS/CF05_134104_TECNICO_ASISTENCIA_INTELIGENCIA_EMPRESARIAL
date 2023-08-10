@@ -157,14 +157,15 @@ export default {
       referencia:
         'Normas Icontec. (2022). <i>Normas Icontec: Guía (2022).</i> ',
       tipo: 'Página web',
-      link: 'https://normasicontec.co/ ',
+      link:
+        'https://www.javerianacali.edu.co/sites/default/files/2022-06/Normas%20ICONTEC%20.pdf',
     },
     {
       tema: 'Presentación formal de la información',
       referencia:
         'Normas APA actualizadas (7ª edición). (2022). <i>Norma APA 2022.</i> ',
       tipo: 'Página web',
-      link: 'https://normas-apa.org/etiqueta/normas-apa-2022/ ',
+      link: 'http://www.bibliotecacentral.uni.edu.pe/pdf/guia_apa7.pdf',
     },
   ],
   glosario: [
@@ -235,11 +236,12 @@ export default {
     {
       referencia:
         'Normas APA actualizadas (7ª edición). (2022). <i>Norma APA 2022.</i>',
-      link: 'https://normas-apa.org/etiqueta/normas-apa-2022/',
+      link: 'http://www.bibliotecacentral.uni.edu.pe/pdf/guia_apa7.pdf',
     },
     {
       referencia: 'Normas Icontec. (2022). <i>Normas Icontec: Guía (2022).</i>',
-      link: 'https://normasicontec.co/ ',
+      link:
+        'https://www.javerianacali.edu.co/sites/default/files/2022-06/Normas%20ICONTEC%20.pdf',
     },
     {
       referencia:

@@ -44,7 +44,7 @@
     figure.mt-5
       img(src="@/assets/curso/temas/tema1/img2.png", alt="alt")
 
-    p.mt-5.mb-5  El hallazgo fijado, transita por un proceso científico de investigación o diagnóstico, que posee cinco etapas particulares, las cuales se constituyen en un ciclo recursivo.
+    p.mt-5.mb-5  El hallazgo fijado transita por un proceso científico de investigación o diagnóstico, que posee cinco etapas particulares, las cuales se constituyen en un ciclo recursivo.
 
     p.mb-5 Tales etapas se definen y detallan así:
 
@@ -56,7 +56,7 @@
               img(src='@/assets/curso/temas/tema1/img3.svg', alt='')
 
           .tarjeta.color-acento-botones.p-3(x="48.2%" y="23%" numero="1")
-              h4 Establecimiento del objetivos
+              h4 Establecimiento de los objetivos
               p.mb-3 Todo proceso de análisis debe partir de un objetivo. El objetivo debe ser alcanzable y manifestar la necesidad de conocimiento de una variable o de un elemento que se quiere investigar. Si el objetivo es conocer la aceptación de un producto, por parte de un consumidor en un estudio de factibilidad, la variable es “la aceptación” y se puede fundamentar en varios datos: aceptación del precio, aceptación del tipo de empaque, aceptación del sabor, entre otros aspectos propios del producto. 
 
           .tarjeta.color-acento-botones.p-3(x="66.1%" y="33.5%" numero="2")

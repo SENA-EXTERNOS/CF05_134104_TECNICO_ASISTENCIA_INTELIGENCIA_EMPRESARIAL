@@ -53,7 +53,7 @@
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="52%" y="72%" numero="+")  
           .row.justify-content-center
             h4 Conclusiones
-            p Deben dar respuesta a los objetivos planteados. Es importante que las conclusiones dejen abierta la posibilidad de interés para ahondar más en el tema, y de la importancia que juega el informe en la gestión organizacional, en el caso que se trate de la empresa. Debe tenerse en cuenta que las conclusiones no son un resumen de resultados, sino que van orientadas a mostrar lo que se proyecta con base en los hallazgos. 
+            p Deben dar respuesta a los objetivos planteados. Es importante que las conclusiones dejen abierta la posibilidad de interés para ahondar más en el tema, y de la importancia que juega el informe en la gestión organizacional, en el caso de que se trate de la empresa. Debe tenerse en cuenta que las conclusiones no son un resumen de resultados, sino que van orientadas a mostrar lo que se proyecta con base en los hallazgos. 
 
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="23%" y="53%" numero="+")  
           .row.justify-content-center
@@ -167,7 +167,7 @@
                       h5.mt-3.text-white Normas Icontec: Guía 2022.
                       p.text-small.text-white Como apoyo, el ICONTEC (2022), también ofrece un material didáctico para la comprensión y elaboración de estos informes, el cual puede visitar en el material complementario, con el nombre Normas Icontec: Guía 2022.
                   .col-md-2.mt-4
-                    a.boton.color-acento-botones(href="https://normasicontec.co/" target="_blank")
+                    a.boton.color-acento-botones(href="https://www.javerianacali.edu.co/sites/default/files/2022-06/Normas%20ICONTEC%20.pdf" target="_blank")
                       span Ver más 
                 i.fa.fa-link
 
@@ -186,7 +186,7 @@
                   h5.mt-3.text-white Norma APA (2022)
                   p.text-small.text-white En el material complementario, se encuentra la última versión de la Norma APA (2022), como una base esencial y guía didáctica para el aprendiz.
               .col-md-2.mt-4
-                a.boton.color-acento-botones(href="https://normas-apa.org/etiqueta/normas-apa-2022/" target="_blank")
+                a.boton.color-acento-botones(href="http://www.bibliotecacentral.uni.edu.pe/pdf/guia_apa7.pdf" target="_blank")
                   span Ver más 
                   i.fa.fa-link
       .row.justify-content-md-center.mt-5
