@@ -33,7 +33,7 @@
           .row.justify-content-center
             .col-sm-10  
               figure 
-                img(src='@/assets/curso/temas/tema3/img2.png', alt='alt') 
+                img(src='@/assets/curso/temas/tema3/img2.svg', alt='alt') 
 
         .cajon.color-acento-botones.punto-caliente-second-color.px-5.py-4(x="41%" y="12%" numero="+")  
           .row.justify-content-center

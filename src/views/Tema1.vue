@@ -38,7 +38,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido.mt-5
       h2 1.1 Relación de los datos con los objetivos de análisis 
 
-    p.mt-5.mb-5  En todo proceso de análisis #[b se parte de un objetivo propuesto], que amerita un #[b producto o resultado] de análisis, es decir, un #[b hallazgo]:
+    p.mt-5.mb-5  En todo proceso de análisis #[b se parte de un objetivo propuesto], que amerita un #[b producto o resultado de análisis], es decir, un #[b hallazgo]:
 
     p.bg2.ml.text-figuras.mt-5.mb-4 #[span.text-bold Figura 1]  <br><em>Proceso de análisis</em> 
     figure.mt-5
@@ -56,7 +56,7 @@
               img(src='@/assets/curso/temas/tema1/img3.svg', alt='')
 
           .tarjeta.color-acento-botones.p-3(x="48.2%" y="23%" numero="1")
-              h4 Establecimiento de los objetivos
+              h4 Establecimiento del objetivo
               p.mb-3 Todo proceso de análisis debe partir de un objetivo. El objetivo debe ser alcanzable y manifestar la necesidad de conocimiento de una variable o de un elemento que se quiere investigar. Si el objetivo es conocer la aceptación de un producto, por parte de un consumidor en un estudio de factibilidad, la variable es “la aceptación” y se puede fundamentar en varios datos: aceptación del precio, aceptación del tipo de empaque, aceptación del sabor, entre otros aspectos propios del producto. 
 
           .tarjeta.color-acento-botones.p-3(x="66.1%" y="33.5%" numero="2")
@@ -64,12 +64,12 @@
 
               p.mb-3 Es el proceso de establecimiento del dato, de la selección de la fuente del dato y del diseño del proceso de recolección. Del tipo de dato depende la fuente de conveniencia; también puede ser que el tipo de fuente ya existente (bases de datos históricas), indique el tipo de dato con que se cuenta. La fuente del dato puede ser personal o digital, y es por eso que el proceso de diagnóstico va a depender del tipo de fuente. Si se trata de muy pocas personas y el dato es cualitativo, puede obtenerse a través de entrevistas; si se trata de muchas personas y los datos son cuantitativos, pueden obtenerse a través de encuestas. 
 
-              p.mb-3 También existen herramientas de medición para datos de objetos o realidades. Un médico recaba el dato de la temperatura con un termómetro; un albañil determina el nivel de colocación de una baldosa con una curva de nivel, y un chef mide la cantidad de un ingrediente, con una balanza. Asimismo, el investigador utiliza guiones de entrevistas, cuestionarios, videos, grabaciones de audio, fotografías, listas de chequeo, entre otros instrumentos de recopilación, en su proceso diagnóstico, <b>hasta recolectar el dato</b>.  
+              p.mb-3 También existen herramientas de medición para datos de objetos o realidades. Un médico recaba el dato de la temperatura con un termómetro; un albañil determina el nivel de colocación de una baldosa con una curva de nivel, y un chef mide la cantidad de un ingrediente con una balanza. Asimismo, el investigador utiliza guiones de entrevistas, cuestionarios, videos, grabaciones de audio, fotografías, listas de chequeo, entre otros instrumentos de recopilación, en su proceso diagnóstico, <b>hasta recolectar el dato</b>.  
 
           .tarjeta.color-acento-botones.p-3(x="62.2%" y="65.6%" numero="3")
               h4 Procesamiento de datos
               
-              p.mb-3 Recolectados los datos brutos, es decir, tal y como se colectan con los diferentes instrumentos de diagnóstico, se pasan entonces por las herramientas de procesamiento, en especial, si se trata de datos cuantitativos o números de los cuales se pueden obtener frecuencias o cantidades totales, proporciones totales o parciales, proyecciones para años futuros, entre otros datos más específicos, que se pueden lograr con los procesadores de datos tecnológicos o con los procesos manuales que permiten conjugar los de una población general de la cual se obtienen los datos, con una población o muestra de personas y/u objetos. 
+              p.mb-3 Recolectados los datos brutos, es decir, tal y como se colectan con los diferentes instrumentos de diagnóstico, se pasan entonces por las herramientas de procesamiento, en especial, si se trata de datos cuantitativos o números, de los cuales se pueden obtener frecuencias o cantidades totales, proporciones totales o parciales, proyecciones para años futuros, entre otros datos más específicos que se pueden lograr con los procesadores de datos tecnológicos o con los procesos manuales, que permiten conjugar los de una población general de la cual se obtienen los datos,  población o muestra de personas y/u objetos. 
 
           .tarjeta.color-acento-botones.p-3(x="34.2%" y="65.3%" numero="4")
               h4 Análisis (Interpretación de datos)
@@ -83,7 +83,7 @@
       .col-md-10
         .cajon.tarjeta-radius.color-acento-contenido.cajon-second-color.p-3
           .row.justify-content-center.p-4 
-            p De acuerdo con lo anterior y habiendo establecido el objetivo de conocer la aceptación de un producto, por parte de un consumidor en un estudio de factibilidad, el empresario tendrá que conocer con números y otros datos cualitativos, si es factible o no, emprender con el producto que se tiene estudiado; es decir si, en cuanto al mercado, con los requerimientos técnicos y el estudio económico, legal y ambiental, es posible conformar la empresa para la producción de ese nuevo producto o si, en una empresa ya existente, es posible ampliar la gama de productos.
+            p De acuerdo con lo anterior y habiendo establecido el objetivo de conocer la aceptación de un producto, por parte de un consumidor en un estudio de factibilidad, el empresario tendrá que conocer con números y otros datos cualitativos, si es factible o no, emprender con el producto que se tiene estudiado; es decir, si en cuanto al mercado, con los requerimientos técnicos y el estudio económico, legal y ambiental, es posible conformar la empresa para la producción de ese nuevo producto, o si en una empresa ya existente, es posible ampliar la gama de productos.
 
 
     .row.align-items-end.bg3.h4.p-3.mt-5 Relación de los datos con los objetivos de análisis
@@ -122,7 +122,7 @@
                 i.lista-ul__vineta
                 | Generar estrategias para el incremento de las ventas. 
 
-    h4.mt-5 Etapa 2: Diagnóstico y o propósito
+    h4.mt-5 Etapa 2: Diagnóstico y/o propósito
     
     p.mt-5.mb-5 Es evidente que el logro de esos objetivos, amerita un proceso de diagnóstico, que inició por identificar: #[span.text-bold ¿Qué se quiere conocer?] Y para cada objetivo, se establecieron las variables o datos que debían ser recabados.
 
@@ -144,9 +144,9 @@
                   img(src='@/assets/curso/temas/tema1/img7.png', alt='')
               
             h3.text-center.mb-5 Procesamiento de datos cuantitativos
-            p #[span.text-bold Herramientas:] Procesadores de datos estadísticos, como Excel.
-            p #[span.text-bold Dato 1: ] Establecimiento de frecuencias de ocurrencia de eventos.
-            p #[span.text-bold Dato 2: ] Establecimiento de proporciones (%).
+            p #[span.text-bold Herramientas:] procesadores de datos estadísticos, como Excel.
+            p #[span.text-bold Dato 1: ] establecimiento de frecuencias de ocurrencia de eventos.
+            p #[span.text-bold Dato 2: ] establecimiento de proporciones (%).
           .col-md.tarjeta.tarjeta-gris.p-4
             .row.justify-content-center.mb-4
               .col-6
@@ -154,11 +154,11 @@
                   img(src='@/assets/curso/temas/tema1/img8.png', alt='')
             h3.text-center.mb-5 Procesamiento de datos cualitativos
             p #[span.text-bold Herramientas:] Registros documentales / tablas de relación.
-            p #[span.text-bold Dato 1: ] Opiniones del personal, en relación con las fallas.
-            p #[span.text-bold Dato 2: ] Percepciones con respecto a la competencia.
-            p #[span.text-bold Dato 3: ] Opiniones de los clientes, en cuanto a los atributos de calidad del producto.
+            p #[span.text-bold Dato 1: ] opiniones del personal, en relación con las fallas.
+            p #[span.text-bold Dato 2: ] percepciones con respecto a la competencia.
+            p #[span.text-bold Dato 3: ] opiniones de los clientes, en cuanto a los atributos de calidad del producto.
             
-    h4.mt-5 Etapa 3: Procesamiento de los datos
+    h4.mt-5 Etapa 4: Análisis
 
 
     .row.justify-content-center.mt-5
