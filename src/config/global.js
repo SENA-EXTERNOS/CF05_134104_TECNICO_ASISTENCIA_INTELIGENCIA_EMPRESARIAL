@@ -247,7 +247,7 @@ export default {
       referencia:
         'Villarreal, J., Rosales, Y. & Rodrigo, A. (2018). La perspectiva hermenéutica y el sentido de la comunicación en el contexto de la sociocultura. <i>Anagramas - Rumbos y sentidos de la comunicación, 16(32). p.85-93.</i>',
       link:
-        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S1692-25222018000100085',
+        'https://www.researchgate.net/publication/331466861_La_perspectiva_hermeneutica_y_el_sentido_de_la_comunicacion_en_el_contexto_de_la_sociocultura',
     },
   ],
   creditos: {
